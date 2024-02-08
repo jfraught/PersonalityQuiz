@@ -287,10 +287,10 @@
             </objects>
             <point key="canvasLocation" x="1748.854961832061" y="3.5211267605633805"/>
         </scene>
-        <!--Title-->
+        <!--Results-->
         <scene sceneID="bj1-cl-RXK">
             <objects>
-                <viewController id="AGZ-1C-If1" sceneMemberID="viewController">
+                <viewController title="Results" id="AGZ-1C-If1" customClass="ResultsViewController" customModule="Personality_Quiz" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="mCj-d1-2aa">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -322,10 +322,19 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Title" id="4KO-FK-A6X">
-                        <barButtonItem key="rightBarButtonItem" title="Done" id="gnZ-1l-3e1"/>
+                        <barButtonItem key="rightBarButtonItem" title="Done" id="gnZ-1l-3e1">
+                            <connections>
+                                <segue destination="46N-J9-0NG" kind="unwind" unwindAction="unwindToQuizIntroductionWithSegue:" id="VQ2-OC-RHQ"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
+                    <connections>
+                        <outlet property="resultAnswerLabel" destination="5eI-qs-c7x" id="ITf-rR-6m4"/>
+                        <outlet property="resultDefinitionLabel" destination="haD-Fh-83M" id="lOH-pm-X8I"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="PJk-WE-hSv" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <exit id="46N-J9-0NG" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="2579.3893129770991" y="3.5211267605633805"/>
         </scene>
