@@ -15,6 +15,7 @@
 		F9C8D3332B72B3FB003DCCA5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9C8D3312B72B3FB003DCCA5 /* LaunchScreen.storyboard */; };
 		F9C8D33B2B73D40F003DCCA5 /* QuestionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9C8D33A2B73D40F003DCCA5 /* QuestionViewController.swift */; };
 		F9C8D33D2B73D4B1003DCCA5 /* ResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9C8D33C2B73D4B1003DCCA5 /* ResultsViewController.swift */; };
+		F9C8D33F2B73E094003DCCA5 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9C8D33E2B73E094003DCCA5 /* Question.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		F9C8D3342B72B3FB003DCCA5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F9C8D33A2B73D40F003DCCA5 /* QuestionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionViewController.swift; sourceTree = "<group>"; };
 		F9C8D33C2B73D4B1003DCCA5 /* ResultsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsViewController.swift; sourceTree = "<group>"; };
+		F9C8D33E2B73E094003DCCA5 /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 				F9C8D33A2B73D40F003DCCA5 /* QuestionViewController.swift */,
 				F9C8D33C2B73D4B1003DCCA5 /* ResultsViewController.swift */,
 				F9C8D32C2B72B3FA003DCCA5 /* Main.storyboard */,
+				F9C8D33E2B73E094003DCCA5 /* Question.swift */,
 				F9C8D32F2B72B3FB003DCCA5 /* Assets.xcassets */,
 				F9C8D3312B72B3FB003DCCA5 /* LaunchScreen.storyboard */,
 				F9C8D3342B72B3FB003DCCA5 /* Info.plist */,
@@ -147,6 +150,7 @@
 				F9C8D32B2B72B3FA003DCCA5 /* IntroductionViewController.swift in Sources */,
 				F9C8D3272B72B3FA003DCCA5 /* AppDelegate.swift in Sources */,
 				F9C8D33B2B73D40F003DCCA5 /* QuestionViewController.swift in Sources */,
+				F9C8D33F2B73E094003DCCA5 /* Question.swift in Sources */,
 				F9C8D33D2B73D4B1003DCCA5 /* ResultsViewController.swift in Sources */,
 				F9C8D3292B72B3FA003DCCA5 /* SceneDelegate.swift in Sources */,
 			);
